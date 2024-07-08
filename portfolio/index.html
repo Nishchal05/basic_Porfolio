@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <!--building a navbar-->
+    <header>
+        <nav>
+            <div class="left"><h1>Nishchal Sundan</h1></div>
+            <div class="right">
+                <ul>
+                    <li><a class="home">Home</a></li>
+                    <li id="about-section"><a href="#About" style="color: #00e676;">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a>Projects</a></li>
+                    <li><a href="#contact" class="contact">Let's Talk <i class="fa-solid fa-shield-cat"></i></a></li>
+                </ul>
+            <div class="mobile-bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="portfolio-main">
+            <div class="portfolio-into">
+                <p class="portfolio-name">Hi, my name is </p>
+                <h1 class="name">Nishchal Sundan</h1>
+                <h1>Front-End Developer</h1>
+                <p>I'm a passionate front-end developer and programming specialized in building exceptional web applications.</p>
+                <div class="social-media-icon">
+                    <a href="https://github.com/Nishchal05"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nishchal-sundan-b0017528a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/nishchal_sundan20_04?igsh=bmU1cHhwam5ucjE1"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="portfolio-resume-contact">
+                    <div><h1>Resume</h1></div>
+                    <div><h1>Let's Talk<i class="fa-solid fa-shield-cat"></i></h1></div>
+                </div>
+            </div>
+            <div class="portfolio-photo"><img src="Utkansh1.jpg" height="200px" /></div>
+        </section>
+        <section class="portfolio-about" id="About">
+            <img src="Utkansh.jpg" alt="photo" class="portfolio-photo1" height="300px"/>
+            <div class="about">
+                <h1>#About</h1>
+                <p>Hello! I am a passionate and skilled front-end developer with a strong foundation in HTML, CSS, SCSS,JavaScript,React js, and Redux. My expertise extends to modern frameworks and tools Bootstrap, enabling me to create visually appealing and responsive web applications. In addition to my technical skills, I have a keen interest in data structures and algorithms, having tackled over 150 questions on GeeksforGeeks, and I am fluent in C++, JavaScript, and more. My problem-solving abilities are further showcased through my participation in numerous competitions, including Hackathons, where I have not only competed but also secured victories. My commitment to continuous learning and my experience in developing robust web solutions make me a valuable asset to any development team. I thrive in fast-paced environments and am always eager to take on new challenges.
+                    My Skills</p>
+            </div>
+        </section>
+        <section class="portfolio-skill" id="Skills">
+          <h1>My skill</h1>
+            <div class="vl"></div>
+            <div class="skill-left" id="skill-left"><div class="hl-left" id="hl-left"></div>
+        <h1>HTML</h1></div>
+        <div class="skill-right" ><div class="hl-right"></div>
+    <h1>CSS</h1></div>
+    <div class="skill-left"><div class="hl-left"></div>
+        <h1>JavaScript</h1></div>
+        <div class="skill-right"><div class="hl-right"></div>
+        <h1>React.js</h1></div>
+        <div class="skill-left" id="skill-left-content"><div class="hl-left" id="hl-contentapi"></div>
+        <h1 id="content">content API</h1></div>
+        <div class="skill-right"><div class="hl-right"></div>
+        <h1>Redux</h1></div>
+        <div class="skill-left"><div class="hl-left"></div>
+        <h1 id="Bootstrap">Bootstrap</h1></div>
+        </section>
+        <section  id="contact">
+            <div class="portfolio-contact">
+                <h1>Get in Touch</h1>
+            <form action="/submit_contact_form" method="post">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            </div>
+        </section>
+    </main>
+</body>
+</body>
+</html>
